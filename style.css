@@ -347,7 +347,7 @@ QUALITY WORK
     text-align: left;
 }
 
-.button__quality {
+.button__learn {
     border: none;
     color: #fff;
     background-color: #6415ff;
@@ -356,7 +356,7 @@ QUALITY WORK
     font-weight: 700;
 }
 
-.button__quality:hover {
+.button__learn:hover {
     background-color: #38049e;
     cursor: not-allowed;
 }
@@ -429,4 +429,69 @@ STEPS
     line-height: 28px;
     margin-top: 12px;
     max-width: 320px;
+}
+
+/*
+
+VALUES
+
+*/
+
+.values__container {
+    padding: 96px 0;
+}
+
+.values__description {
+    width: 40%;
+}
+
+.values__principles--wrapper {
+    display: flex;
+}
+
+.values__principle {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 32px 0 0;
+}
+
+.values__principle--header {
+    display: flex;
+    align-items: center;
+}
+
+.values__dollar--wrapper {
+    background-color: rgb(154, 230, 180);
+    border-radius: 500px;
+    padding: 6px;
+    color: rgb(39, 103, 73);
+    display: flex;
+}
+
+.values__principle--title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 12px;
+    color: #243e63;
+}
+
+.values__principle--description {
+    line-height: 1.5;
+    color: #718096;
+    margin: 16px 0 32px 0;
+}
+
+.values__briefcase--wrapper {
+    background-color: rgb(254, 178, 178);
+    padding: 6px;
+    border-radius: 500px;
+    color: rgb(155, 44, 44);
+    display: flex;
+}
+
+.values__img--wrapper {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding-left: 80px;
 }
