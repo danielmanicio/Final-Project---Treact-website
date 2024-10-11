@@ -262,17 +262,17 @@ FEATURES
     align-items: center;
 }
 
-.features__description {
+.center__description {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.features__title {
+.center__title {
     display: flex;
     justify-content: center;
 }
 
-.features__para {
+.center__para {
     text-align: center;
 }
 
@@ -494,4 +494,40 @@ VALUES
     align-items: center;
     width: 50%;
     padding-left: 80px;
+}
+
+/*
+
+PRICING
+
+*/
+
+.pricing__container {
+    padding: 96px 0;
+}
+
+.pricing__row {
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+}
+
+.pricing__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.pricing__personal {
+    margin: 64px 32px 0 0;
+    width: 100%;
+    max-width: 384px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
 }
