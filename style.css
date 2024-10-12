@@ -521,10 +521,13 @@ PRICING
 .pricing__wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
 }
 
-.pricing__personal {
+.pricing__personal,
+.pricing__business,
+.pricing__enterprise {
     margin: 64px 32px 0 0;
     width: 100%;
     max-width: 384px;
@@ -611,5 +614,36 @@ PRICING
 
 .button__personal {
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    color: #fff;
+}
+
+.pricing__business {
+    margin: 64px 32px 0 0;
+    background-image: linear-gradient(135deg, rgb(76,81,191) 0%, rgb(102, 126, 234) 100%);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;      
+}
+
+.business__top,
+.business__title,
+.business__subtitle,
+.business__monthly,
+.mid__white {
+    color:#fff;
+}
+
+.button__business {
+    color: #6415ff;
+}
+
+.enterprise__color {
+    height: 8px;
+    background: linear-gradient(115deg, rgb(245,101,101) 0%, rgb(254,178,178) 100%);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.button__enterprise {
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254,178,178) 100%);
     color: #fff;
 }
