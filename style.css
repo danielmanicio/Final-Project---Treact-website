@@ -764,3 +764,91 @@ FAQS
     font-size: 20px;
     font-weight: 400;
 }
+
+/*
+
+BANNER
+
+*/
+
+.banner__container {
+    padding: 96px 0;
+}
+
+.banner__row {
+    display: flex;
+    align-items: center;
+}
+
+.banner__line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #6415ff;
+    padding: 80px;
+    border-radius: 8px;
+}
+
+.banner__description {
+    margin: 0 auto;
+    display: flex;
+}
+
+.banner__title--wrapper {
+    width: 50%;
+}
+
+.banner__title {
+    font-size: 28px;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.banner__buttons--wrapper {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn__get-started {
+    background-color: rgb(247, 91, 91);
+    color: #fff;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 32px;
+    transition: 500ms ease;
+    cursor: not-allowed;
+}
+
+.btn__get-started:hover {
+    background-color: rgb(202, 73, 73);
+}
+
+.btn__contact-us {
+    background-color: #6415ff;
+    color: #fff;
+    padding: 16px 32px;
+    border: 1px solid rgb(160, 174, 192);
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 32px;
+    transition: 500ms ease;
+    cursor: not-allowed;
+}
+
+.btn__contact-us:hover {
+    background-color: #fff;
+    color: #6415ff
+}
+
+/*
+
+FOOTER
+
+*/
