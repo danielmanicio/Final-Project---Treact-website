@@ -123,7 +123,7 @@ NAVIGATION
 }
 
 .section__subtitle {
-    font-size: 48px;
+    font-size: 44px;
     color: #243e63;
     font-weight: 900;
 }
@@ -646,4 +646,75 @@ PRICING
 .button__enterprise {
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254,178,178) 100%);
     color: #fff;
+}
+
+/*
+
+TESTIMONY
+
+*/
+
+.testimony__container {
+    padding: 96px 0;
+}
+
+.testimony__row {
+    display: flex;
+}
+
+.testimony__description {
+    width: 60%;
+    padding-left: 64px;
+}
+
+.testimony__ratings {
+    color: #fabf2a;
+    margin-bottom: 16px;
+}
+
+.testimonial__title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #243E63;
+}
+
+.testimonial__para {
+    font-size: 16px;
+    font-weight: 500;
+    color: #4a5568;
+    line-height: 28px;
+    margin: 16px 0 32px;
+}
+
+.testimony__person {
+    display: flex;
+    align-items: center;
+}
+
+.person__img--wrapper {
+    margin-right: 20px;
+}
+
+.person__img {
+    width: 84px;
+    height: 84px;
+    border-radius: 50px;
+}
+
+.person__rating {
+    display: flex;
+    flex-direction: column;
+}
+
+.person__name {
+    font-size: 20px;
+    color: #243e63;
+    font-weight: 700;
+}
+
+.person__title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #7caba1;
+    line-height: 1.5;
 }
