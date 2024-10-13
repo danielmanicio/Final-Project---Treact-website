@@ -718,3 +718,49 @@ TESTIMONY
     color: #7caba1;
     line-height: 1.5;
 }
+
+/*
+
+FAQS
+
+*/
+
+.questions__container {
+    padding: 96px 0;
+}
+
+.questions__row {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.questions__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.questions__table {
+    width: 100%;
+}
+
+.question__line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    margin-bottom: 24px;
+    background-color: rgba(227, 230, 233, 0.48);
+    transition: 500ms ease;
+    cursor: not-allowed;
+}
+
+.question__line:hover {
+    background-color: rgba(203, 208, 214, 0.5);
+}
+
+.question {
+    font-size: 20px;
+    font-weight: 400;
+}
