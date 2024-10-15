@@ -819,6 +819,12 @@ TESTIMONY
     display: flex;
 }
 
+.testimony__img--wrapper {
+    max-width: 40%;
+    display: flex;
+    align-items: center;
+}
+
 .testimony__description {
     width: 60%;
     padding-left: 64px;
@@ -1002,7 +1008,7 @@ BANNER
     border-radius: 50px;
     font-size: 16px;
     font-weight: 700;
-    margin: 32px;
+    margin-right: 32px;
     transition: 500ms ease;
     cursor: not-allowed;
 }
@@ -1124,6 +1130,8 @@ RESPONSIVENESS
 
 */
 
+/* Desktops */
+
 @media (max-width: 1024px) {
     .nav__links {
         display: none;
@@ -1132,5 +1140,114 @@ RESPONSIVENESS
     .btn__menu {
         display: block;
     }
+
+    .header__container {
+        padding: 58px 0;
+    }
+
+    .header__row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__title {
+        font-size: 28px;
+    }
+
+    .header__para {
+        font-size: 16px;
+    }
+
+    .header__title,
+    .header__para {
+        text-align: center;
+        }
+
+
+    .header__signup {
+        max-width: 500px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .header__customers--title {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .header__customers--wrapper {
+        margin-top: 30px;
+    }
+
+    .header__customers--img {
+        margin: 16px 32px;
+    }
+
+    .header__img {
+        padding: 40px;
+    }
+
+    .pricing__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pricing__personal,
+    .pricing__business,
+    .pricing__enterprise {
+        margin: 64px 0 0;
+    }
+
+    .testimony__row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimony__img--wrapper {
+        margin-bottom: 24px;
+    }
+
+    .testimony__description {
+        width: 90%;
+    }
+
+
+
+    .banner__description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner__title--wrapper {
+        width: 100%;
+        margin-bottom: 28px;
+    }
+
+    .banner__title {
+        text-align: center;
+        max-width: 500px;
+    }
+
+    .banner__buttons--wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .btn__get-started,
+    .btn__contact-us {
+        font-size: 12px;
+        padding: 16px;
+    }
+
+}
+
+
+/* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
+
+@media (max-width: 768px) {
 
 }
