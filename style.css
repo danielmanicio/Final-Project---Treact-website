@@ -1176,15 +1176,12 @@ RESPONSIVENESS
     }
 
     .header__customers--wrapper {
-        margin-top: 30px;
+        margin-top: 32px;
+        margin-bottom: 32px;
     }
 
     .header__customers--img {
         margin: 16px 32px;
-    }
-
-    .header__img {
-        padding: 40px;
     }
 
     .pricing__wrapper {
@@ -1247,6 +1244,18 @@ RESPONSIVENESS
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
 
 @media (max-width: 768px) {
+    .features__container,
+    .quality__container,
+    .steps__container,
+    .values__container,
+    .pricing__container,
+    .testimony__container,
+    .questions__container,
+    .banner__container {
+        padding: 80px 0;
+    }
+
+    
     .features__service--wrapper {
         display: flex;
         flex-direction: column;
@@ -1270,6 +1279,92 @@ RESPONSIVENESS
         text-align: center;
     }
 
+    .quality__row {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .quality__description {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .quality__img--wrapper {
+        margin-bottom: 32px;
+    }
+
+    .steps__row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .steps__img--wrapper {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+    .steps__description {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .steps__list--item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .steps__list--number {
+        margin: 0 0 8px 16px;
+    }
+
+    .values__img--wrapper {
+        margin-bottom: 32px;
+    }
+
+    .values__row {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .values__description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 60%;
+    }
+
+    .values__principles--wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 32px;
+    }
+    .values__principle--header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .values__principle--description {
+        text-align: center;
+    }
+
+    .values__button--wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
     .testimony__img--wrapper {
         margin-left: 40px;
         margin-bottom: 48px;
@@ -1283,5 +1378,21 @@ RESPONSIVENESS
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .features__description,
+    .pricing__description {
+        text-align: center;
+    }
+
+    .footer__logo--title {
+        font-size: 16px;
+    }
+
+    .footer__copyright {
+        font-size: 12px;
     }
 }
