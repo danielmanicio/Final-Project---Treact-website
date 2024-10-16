@@ -436,7 +436,7 @@ FEATURES
 }
 
 .service__description {
-    margin: 8px 0 0 16px;
+    padding: 8px 0 0 16px;
 }
 
 .service__title {
@@ -820,7 +820,7 @@ TESTIMONY
 }
 
 .testimony__img--wrapper {
-    max-width: 40%;
+    width: 60%;
     display: flex;
     align-items: center;
 }
@@ -1212,8 +1212,6 @@ RESPONSIVENESS
         width: 90%;
     }
 
-
-
     .banner__description {
         display: flex;
         flex-direction: column;
@@ -1249,5 +1247,41 @@ RESPONSIVENESS
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
 
 @media (max-width: 768px) {
+    .features__service--wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .features__service {
+        width: 50%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .service__description {
+        margin-top: 16px;
+        padding: 0;
+    }
+
+    .service__para {
+        text-align: center;
+    }
+
+    .testimony__img--wrapper {
+        margin-left: 40px;
+        margin-bottom: 48px;
+    }
+
+    .testimony__description {
+        text-align: center;
+    }
+
+    .testimony__person {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
