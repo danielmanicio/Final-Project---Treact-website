@@ -1227,15 +1227,14 @@ RESPONSIVENESS
 
     .banner__buttons--wrapper {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
         width: 100%;
     }
 
     .btn__get-started,
     .btn__contact-us {
-        font-size: 12px;
-        padding: 16px;
+        margin-top: 20px;
     }
 
 }
@@ -1372,6 +1371,7 @@ RESPONSIVENESS
 
     .testimony__description {
         text-align: center;
+        padding-left: 0;
     }
 
     .testimony__person {
@@ -1394,9 +1394,6 @@ RESPONSIVENESS
         text-align: center;
     }
 
-    .testimony__description {
-        padding-left: 0;
-    }
 
     .question {
         font-size: 16px;
@@ -1412,19 +1409,22 @@ RESPONSIVENESS
 }
 
 @media (max-width: 480px) {
+    .header__description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
     .header__title {
         font-size: 24px;
     }
 
     .header__para {
         font-size: 16px;
-        padding: 0 62px 0 62px;
+        width: 60%;
     }
 
-
-    .header__signup {
-        padding: 0 62px 0 62px;
-    }
 
     .header__customers--wrapper {
         display: flex;
@@ -1443,11 +1443,26 @@ RESPONSIVENESS
     }
 
     .header__btn {
+        position: relative;
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .header__signup {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+
+/*
+
+
+    .header__btn {
         font-size: 12px;
         width: 20%;
         margin-right: 68px;
     }
-
+*/
     .banner__title {
         font-size: 20px;
     }
