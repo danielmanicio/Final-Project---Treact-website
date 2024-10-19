@@ -333,7 +333,7 @@ header {
 .header__btn {
     margin: 8px;
     padding: 16px 0;
-    width: 160px;
+    width: 35%;
     border: none;
     border-radius: 48px;
     background-color: #6415ff;
@@ -1383,9 +1383,23 @@ RESPONSIVENESS
 }
 
 @media (max-width: 576px) {
+   
+    .section__subtitle {
+        font-size: 32px;
+    }
+   
+   
     .features__description,
     .pricing__description {
         text-align: center;
+    }
+
+    .testimony__description {
+        padding-left: 0;
+    }
+
+    .question {
+        font-size: 16px;
     }
 
     .footer__logo--title {
@@ -1396,3 +1410,71 @@ RESPONSIVENESS
         font-size: 12px;
     }
 }
+
+@media (max-width: 480px) {
+    .header__title {
+        font-size: 24px;
+    }
+
+    .header__para {
+        font-size: 16px;
+        padding: 0 62px 0 62px;
+    }
+
+
+    .header__signup {
+        padding: 0 62px 0 62px;
+    }
+
+    .header__customers--wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header__customers--img {
+        width: 60%;
+        padding-right: 0;
+
+    }
+
+    .header__input {
+        font-size: 12px;
+    }
+
+    .header__btn {
+        font-size: 12px;
+        width: 20%;
+        margin-right: 68px;
+    }
+
+    .banner__title {
+        font-size: 20px;
+    }
+
+    .footer__links {
+        text-align: center;
+    }
+
+    .footer__links--title {
+        font-size: 12px;
+    }
+
+    .footer__link {
+        font-size: 10px;
+    }
+
+    .footer__logo {
+        margin-left: 12px;
+    }
+
+    .footer__logo--title {
+        font-size: 12px;
+    }
+
+    .footer__copyright {
+        font-size: 8px;
+    }
+
+}
+
