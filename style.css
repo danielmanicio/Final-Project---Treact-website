@@ -1425,7 +1425,6 @@ RESPONSIVENESS
         width: 60%;
     }
 
-
     .header__customers--wrapper {
         display: flex;
         flex-direction: column;
@@ -1453,18 +1452,16 @@ RESPONSIVENESS
         flex-direction: column;
         width: 70%;
     }
+    
 
-/*
-
-
-    .header__btn {
-        font-size: 12px;
-        width: 20%;
-        margin-right: 68px;
-    }
-*/
     .banner__title {
         font-size: 20px;
+    }
+
+    .btn__get-started,
+    .btn__contact-us {
+        font-size: 12px;
+        margin-left: 40px;
     }
 
     .footer__links {
