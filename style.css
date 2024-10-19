@@ -1328,6 +1328,7 @@ RESPONSIVENESS
 
     .values__img--wrapper {
         margin-bottom: 32px;
+        padding-left: 0;
     }
 
     .values__row {
@@ -1341,7 +1342,7 @@ RESPONSIVENESS
         flex-direction: column;
         align-items: center;
         text-align: center;
-        width: 60%;
+        width: 80%;
     }
 
     .values__principles--wrapper {
@@ -1452,7 +1453,10 @@ RESPONSIVENESS
         flex-direction: column;
         width: 70%;
     }
-    
+
+    .features__service {
+        width: 70%;
+    }
 
     .banner__title {
         font-size: 20px;
